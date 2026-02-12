@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Valentine Game</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+<script src="index.js" defer></script>
+</head>
+<body>
+
+<div class="hearts" id="hearts"></div>
+
+<div class="envelope-title">💌 LETTER FOR YOU 💌</div>
+
+<div id="heartsDisplay">
+    <span class="heart pixel-heart-icon">❤</span>
+    <span class="heart pixel-heart-icon">❤</span>
+    <span class="heart pixel-heart-icon">❤</span>
+    <span class="heart pixel-heart-icon">❤</span>
+    <span class="heart pixel-heart-icon">❤</span>
+</div>
+
+<div class="envelope" id="envelope">
+    <div class="flap"></div>
+    <div class="letter" id="letterText">
+        <div>Will you be my</div>
+        <div>Valentine</div>
+        <div><strong><span id="partnerName"></span></strong></div>
+        <div>on February 14, 2026?</div>
+        <div style="margin-top: 10px;">💖</div>
+    </div>
+</div>
+
+<button id="openBtn">OPEN</button>
+
+<div id="buttons">
+    <button id="yesBtn">YES</button>
+    <button id="noBtn">NO</button>
+</div>
+
+<!-- Celebration Modal -->
+<div class="modal" id="modal">
+    <div class="celebrate-text" id="celebrateMessage"></div>
+</div>
+</body>
+</html>
